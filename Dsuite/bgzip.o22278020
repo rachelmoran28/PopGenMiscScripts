@@ -1,0 +1,77 @@
+There are 28 sets (excluding the Outgroup)
+Going to calculate D and f4-ratio values for 3276 trios
+Done permutations
+The VCF contains 700502 variants
+Going to use block size of 35024 variants to get 20 Jackknife blocks
+WARNING: the sample Aeneus_granadas_cave is in the VCF but not assigned in the SETS.txt file
+Processed 10000 variants (1.42755%) in 15.15secs
+Processed 20000 variants (2.8551%) in 30.13secs
+Processed 30000 variants (4.28264%) in 45.14secs
+Processed 40000 variants (5.71019%) in 60.17secs
+Processed 50000 variants (7.13774%) in 75.3secs
+Processed 60000 variants (8.56529%) in 90.45secs
+Processed 70000 variants (9.99283%) in 105.36secs
+Processed 80000 variants (11.4204%) in 120.36secs
+Processed 90000 variants (12.8479%) in 135.22secs
+Processed 100000 variants (14.2755%) in 150.27secs
+Processed 110000 variants (15.703%) in 165.17secs
+Processed 120000 variants (17.1306%) in 180.31secs
+Processed 130000 variants (18.5581%) in 195.21secs
+Processed 140000 variants (19.9857%) in 210.19secs
+Processed 150000 variants (21.4132%) in 225.16secs
+Processed 160000 variants (22.8408%) in 240.21secs
+Processed 170000 variants (24.2683%) in 255.29secs
+Processed 180000 variants (25.6959%) in 270.46secs
+Processed 190000 variants (27.1234%) in 285.45secs
+Processed 200000 variants (28.551%) in 300.54secs
+Processed 210000 variants (29.9785%) in 315.71secs
+Processed 220000 variants (31.406%) in 330.79secs
+Processed 230000 variants (32.8336%) in 345.63secs
+Processed 240000 variants (34.2611%) in 360.02secs
+Processed 250000 variants (35.6887%) in 375.18secs
+Processed 260000 variants (37.1162%) in 389.97secs
+Processed 270000 variants (38.5438%) in 405secs
+Processed 280000 variants (39.9713%) in 419.8secs
+Processed 290000 variants (41.3989%) in 434.78secs
+Processed 300000 variants (42.8264%) in 449.92secs
+Processed 310000 variants (44.254%) in 465.01secs
+Processed 320000 variants (45.6815%) in 480.16secs
+Processed 330000 variants (47.1091%) in 495.16secs
+Processed 340000 variants (48.5366%) in 510.26secs
+Processed 350000 variants (49.9642%) in 525.2secs
+Processed 360000 variants (51.3917%) in 540.22secs
+Processed 370000 variants (52.8193%) in 555.22secs
+Processed 380000 variants (54.2468%) in 570.4secs
+Processed 390000 variants (55.6744%) in 585.38secs
+Processed 400000 variants (57.1019%) in 600.52secs
+Processed 410000 variants (58.5295%) in 615.6secs
+Processed 420000 variants (59.957%) in 630.71secs
+Processed 430000 variants (61.3845%) in 645.78secs
+Processed 440000 variants (62.8121%) in 660.52secs
+Processed 450000 variants (64.2396%) in 675.72secs
+Processed 460000 variants (65.6672%) in 690.71secs
+Processed 470000 variants (67.0947%) in 705.74secs
+Processed 480000 variants (68.5223%) in 720.58secs
+Processed 490000 variants (69.9498%) in 735.8secs
+Processed 500000 variants (71.3774%) in 750.71secs
+Processed 510000 variants (72.8049%) in 765.64secs
+Processed 520000 variants (74.2325%) in 780.45secs
+Processed 530000 variants (75.66%) in 795.54secs
+Processed 540000 variants (77.0876%) in 810.21secs
+Processed 550000 variants (78.5151%) in 824.35secs
+Processed 560000 variants (79.9427%) in 838.35secs
+Processed 570000 variants (81.3702%) in 851.38secs
+Processed 580000 variants (82.7978%) in 863.8secs
+Processed 590000 variants (84.2253%) in 876.64secs
+Processed 600000 variants (85.6529%) in 891secs
+Processed 610000 variants (87.0804%) in 905.12secs
+Processed 620000 variants (88.508%) in 919.88secs
+Processed 630000 variants (89.9355%) in 934.34secs
+Processed 640000 variants (91.3631%) in 949.28secs
+Processed 650000 variants (92.7906%) in 964.09secs
+Processed 660000 variants (94.2181%) in 978.71secs
+Processed 670000 variants (95.6457%) in 993.85secs
+Processed 680000 variants (97.0732%) in 1008.68secs
+Processed 690000 variants (98.5008%) in 1024.42secs
+Processed 700000 variants (99.9283%) in 1040.03secs
+Done processing VCF. Preparing output files...

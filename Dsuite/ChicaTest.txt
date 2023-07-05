@@ -1,0 +1,11 @@
+P1	P2	P3	Dstatistic	p-value
+ChicaPool2	ChicaPool1	Choy	0.000803319	0.470506
+ChicaPool1	ChicaPool2	Pachon	0.00293234	0.379285
+ChicaPool1	ChicaPool2	Rascon	0.00328984	0.365014
+Choy	Pachon	ChicaPool1	0.0326279	0.0239573
+Choy	ChicaPool1	Rascon	0.285438	0
+ChicaPool1	Pachon	Rascon	0.270419	0
+Choy	Pachon	ChicaPool2	0.0345143	0.0123019
+Choy	ChicaPool2	Rascon	0.28713	0
+ChicaPool2	Pachon	Rascon	0.26839	0
+Choy	Rascon	Pachon	0.0586174	2.27711e-05
