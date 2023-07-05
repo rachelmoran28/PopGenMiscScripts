@@ -1,0 +1,32 @@
+0
+Variance of relatedness between populations explained by the model     0.937630544503619
+1
+Variance of relatedness between populations explained by the model	0.964524838965701
+2
+Variance of relatedness between populations explained by the model	0.972429869655144
+3
+Variance of relatedness between populations explained by the model	0.988434376766014
+4
+Variance of relatedness between populations explained by the model	0.99579844207671
+5
+Variance of relatedness between populations explained by the model	0.998471535372817
+6
+Variance of relatedness between populations explained by the model	0.999947615786633
+7
+Variance of relatedness between populations explained by the model	0.999998234462849
+8
+Variance of relatedness between populations explained by the model	0.999999998911623
+9
+Variance of relatedness between populations explained by the model	0.999999999963711
+10
+Variance of relatedness between populations explained by the model	0.9999999999986
+11
+Variance of relatedness between populations explained by the model	1
+12
+Variance of relatedness between populations explained by the model	0.999999999993685
+13
+Variance of relatedness between populations explained by the model	1
+14
+Variance of relatedness between populations explained by the model	1
+15
+Variance of relatedness between populations explained by the model	1

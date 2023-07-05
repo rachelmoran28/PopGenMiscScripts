@@ -1,0 +1,8 @@
+#nexus
+
+begin paup;
+ execute HardFiltered_250Indv_SurfaceRef_biallelicSNPS_rmv0.4missing_thinned1kbp.recode.Am_Ag.RepRemoved.recode.nex;
+ delete 1-19 21-35 37-41 43-60 62-87 89-147 149-167 169-177 179-197 199-200 202-246;
+ SVDQuartets evalQuartets=random nquartets=500000 nthreads=24 seed=0 bootstrap=standard nrep=500;
+ SaveTrees file=iqtree_subset.SVDQuartets.SNPs.thinned1kbp.rmv0.4missing.SpeciesTree.tre;
+end;

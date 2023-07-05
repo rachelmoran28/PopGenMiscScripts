@@ -1,0 +1,37 @@
+
+Error(#102): Cannot find file
+             "HardFiltered_250Indv_SurfaceRef_biallelicSNPS_rmv0.4missing_thinned1kbp.recode.Am_Ag.R
+             epRemoved.recode.nex"
+                 Make sure the filename has been specified correctly (including upper- vs. lower-
+                 case on operating systems where case is important in filenames).
+
+Error occurred while processing line 4 of file run.nex
+
+P A U P *
+Version 4.0a (build 166) for Unix/Linux (built on Sep  1 2019 at 20:35:05)
+Tue Apr  7 15:04:45 2020
+
+        -----------------------------NOTICE-----------------------------
+          This is a test version that is still changing rapidly.
+          Please report bugs to dave@phylosolutions.com
+        ----------------------------------------------------------------
+
+Running on Intel(R) 64 architecture
+SSE vectorization enabled
+SSSE3 instructions supported
+Multithreading enabled for likelihood using Pthreads
+Compiled using GNU C compiler (gcc) 4.8.4
+
+Processing of file "~/cavefish/PAUP/run.nex" begins...
+
+Error(#102): Cannot find file
+             "HardFiltered_250Indv_SurfaceRef_biallelicSNPS_rmv0.4missing_thinned1kbp.recode.Am_Ag.R
+             epRemoved.recode.nex"
+                 Make sure the filename has been specified correctly (including upper- vs. lower-
+                 case on operating systems where case is important in filenames).
+
+Error occurred while processing line 4 of file run.nex
+
+Processing of input file "run.nex" terminated due to errors.
+
+Execution terminated due to errors.

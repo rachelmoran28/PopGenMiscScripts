@@ -1,0 +1,7 @@
+echo "ML" > Subter_nicara_variance_explained.txt
+Rscript treemixVarianceExplained.R Subter_subset_nicara_ML >> Subter_nicara_variance_explained.txt
+for i in {1..15}; do echo "m${i}">>Subter_nicara_variance_explained.txt; Rscript treemixVarianceExplained.R  m${i}_Subter_subset_nicara >>Subter_nicara_variance_explained.txt; done
+
+cat Subter_nicara_variance_explained.txt | grep -v Standard | sed -E 's,Variance of relatedness between populations explained by the model,,g' > Subter_nicara_variance_explained.txt2
+rm Subter_nicara_variance_explained.txt
+mv Subter_nicara_variance_explained.txt2 Subter_nicara_variance_explained.txt

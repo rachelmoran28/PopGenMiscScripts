@@ -1,0 +1,12 @@
+Standard error for all entries in the covariance matrix estimated from the data	8.4334616e-05
+Variance of relatedness between populations explained by the model	0.589009359539368
+Standard error for all entries in the covariance matrix estimated from the data	8.4334616e-05
+Variance of relatedness between populations explained by the model	0.923794593522936
+Standard error for all entries in the covariance matrix estimated from the data	8.4334616e-05
+Variance of relatedness between populations explained by the model	0.96618081591447
+Standard error for all entries in the covariance matrix estimated from the data	8.4334616e-05
+Variance of relatedness between populations explained by the model	1
+Standard error for all entries in the covariance matrix estimated from the data	8.4334616e-05
+Variance of relatedness between populations explained by the model	1
+Standard error for all entries in the covariance matrix estimated from the data	8.4334616e-05
+Variance of relatedness between populations explained by the model	1
