@@ -1,0 +1,1 @@
+for f in train/*.msOut; do echo "python diploSHIC.py fvecSim diploid $f $f.diploid.fvec --totalPhysLen 55000 --maskFileName GCA_000372685.2_Astyanax_mexicanus-2.0_genomic.HardMasked.WM.RM.fa --chrArmsForMasking NW_019170535.1">> fvecSim.commnads.txt; done
