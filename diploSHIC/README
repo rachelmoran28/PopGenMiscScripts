@@ -1,0 +1,21 @@
+Dependency versions used on MSI:
+Keras                  2.4.3
+tensorflow             2.3.1
+
+
+#Make simulated data set
+array_discoal.sh
+
+#Compute summary statistics and feature vectors on simulated date
+array_fvecSim.sh
+
+#train diploS/HIC CNN and generate model
+run_makeTrainingSets.sh
+run_Training.sh
+**check model accuracy at this point**
+
+#run diploS/HIC on empirical data
+ array_run_fvecVCF.sh
+
+#Get predictions in windows across the genome (run separately for each population)
+ array_run_predictions.sh
