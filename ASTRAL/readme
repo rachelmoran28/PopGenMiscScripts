@@ -15,7 +15,7 @@ Here are notes on each of the main steps involved:
 
 1. BUSCO -  identified single copy orthologs in the surface fish genome (3440 total)
 
-  script : run_busco.sh
+  Sample script : run_busco.sh
 
   Note: One .fna (nucleic acid) and one .faa (amino acid) file is generated for each gene
 
@@ -36,6 +36,8 @@ Here are notes on each of the main steps involved:
 
 
 4. ASTRAL - build species tree (use ASTRAL-MP for multithreading; with -T 24, 246 samples, and 3442 genes it completed in ~2 hrs)
+  
+  Sample script: ASTRAL_make_tree.sh
 
   ASTRAL requires a single file with all gene trees as input (cat *.treefile > ml_all_genes.trees)
 
