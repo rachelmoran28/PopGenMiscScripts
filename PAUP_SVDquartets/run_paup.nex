@@ -1,0 +1,7 @@
+#nexus
+
+begin paup;
+ execute singlesnp_p2_r04_wEflab_nohyb_nolowcov.nex;
+ SVDQuartets evalQuartets=random nquartets=500000 nthreads=24 seed=0 bootstrap=standard nrep=500;
+ SaveTrees file=SVDquartets.singlesnp_p2_r04_wEflab_nohyb_nolowcov.tre;
+end;
