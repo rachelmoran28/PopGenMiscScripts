@@ -1,1 +1,44 @@
 
+For the Astyanax mexicanus ASTRAL tree (published in Moran et al. 2023 Nature Communications) BUSCO was run on the A. mexicanus reference genome to get all single copy orthologs (using the bony fish orthodb). 
+
+BUSCO generates a folder with a fasta file for each single copy ortholog - the A. mexicanus genome had 3,442 total. 
+
+The fasta header for each gene includes the genome coordinates; these were pulled out and provided to a script called vcf2msa.py that makes fasta alignments from a vcf. 
+
+IQTREE was used to generate ML trees for each of the 3,442 gene alignments, then the resulting trees were concatenated into one big file. ASTRAL then takes that big concatenated file of trees as input. 
+
+
+
+
+Here are notes on each of the main steps involved:
+
+
+1. BUSCO -  identified single copy orthologs in the surface fish genome (3440 total)
+
+  script : run_busco.sh
+
+  Note: One .fna (nucleic acid) and one .faa (amino acid) file is generated for each gene
+
+
+
+2. vcf2msa.py (https://github.com/tkchafin/vcf2msa.py) - used to generate fasta alignments for each gene of interest (for the Moran et al. 2023 Nat Comms paper, this included 244 A. mexicanus and 2 A. aeneus samples)
+
+  Usage:  python3 vcf2msa.py -r ${REF} -v ${VCF} -R NW_019170535.1:1004588-1018155
+
+  Ran this command for each gene (gene coordinate provided with -R flag; -r is used to specify the reference genome fasta file
+
+
+
+3. IQTREE - build a ML tree for each gene 
+
+  Usage: iqtree -s ${i} -nt 24 -keep-ident -bb 1000 -safe -blmin 1e-300
+
+
+
+4. ASTRAL - build species tree (use ASTRAL-MP for multithreading; with -T 24, 246 samples, and 3442 genes it completed in ~2 hrs)
+
+  ASTRAL requires a single file with all gene trees as input (cat *.treefile > ml_all_genes.trees)
+
+  Usage: java -jar astral.5.14.4.jar -i [gene_trees] -t 3 -T 24 -o ASTRAL_tree_out_lpp
+
+
